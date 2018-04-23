@@ -6,14 +6,17 @@ import { HomeComponent } from './home/home.component';
 import {LayoutModule} from '../layout/layout.module';
 import { FaqComponent } from './faq/faq.component';
 
-import { MainSliderModule } from './../layout/main-slider/main-slider.module';
+import { MainSliderModule } from './../app-directive/main-slider/main-slider.module';
+import { ProductSliderModule } from './../app-directive/product-slider/product-slider.module';
+
 
 @NgModule({
   imports: [
     CommonModule,
     HomeRoutingModule,
     LayoutModule,
-    MainSliderModule
+    MainSliderModule,
+    ProductSliderModule
   ],
   declarations: [HomeComponent, FaqComponent]
 })

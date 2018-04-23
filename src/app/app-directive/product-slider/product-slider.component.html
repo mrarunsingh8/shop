@@ -1,0 +1,70 @@
+<div class="product-slider owl-carousel owl-theme" style="display: block; opacity: 1;">
+    <div class="owl-wrapper-outer">
+        <div class="owl-wrapper" style="display: block; width: 5472px; left: 0px; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);">
+            <div class="owl-item" style="width: 342px;" *ngFor="let dataItem of imageArr">
+                <div class="item" style="visibility: visible;">
+                    <div class="product">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <a href="detail.html">
+                                        <img [src]="dataItem.image" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="back">
+                                    <a href="detail.html">
+                                        <img [src]="dataItem.imageR" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="detail.html" class="invisible">
+                            <img [src]="dataItem.image" alt="" class="img-responsive">
+                        </a>
+                        <div class="text">
+                            <h3><a href="detail.html">dataItem.name</a></h3>
+                            <p class="price"><del>${{dataItem.mrp}}</del> ${{dataItem.price}}.00</p>
+                        </div>
+                        <!-- /.text -->
+
+                        <div class="ribbon sale" *ngIf="dataItem.isSale">
+                            <div class="theribbon">SALE</div>
+                            <div class="ribbon-background"></div>
+                        </div>
+                        <!-- /.ribbon -->
+
+                        <div class="ribbon new" *ngIf="dataItem.isNew">
+                            <div class="theribbon">NEW</div>
+                            <div class="ribbon-background"></div>
+                        </div>
+                        <!-- /.ribbon -->
+
+                        <div class="ribbon gift" *ngIf="dataItem.isGift">
+                            <div class="theribbon">GIFT</div>
+                            <div class="ribbon-background"></div>
+                        </div>
+
+
+                    </div>
+                    <!-- /.product -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- /.col-md-4 -->
+
+    <div class="owl-controls clickable">
+        <div class="owl-pagination">
+            <div class="owl-page active"><span class=""></span></div>
+            <div class="owl-page"><span class=""></span></div>
+            <div class="owl-page"><span class=""></span></div>
+            <div class="owl-page"><span class=""></span></div>
+        </div>
+        <div class="owl-buttons">
+            <div class="owl-prev">prev</div>
+            <div class="owl-next">next</div>
+        </div>
+    </div>
+</div>
