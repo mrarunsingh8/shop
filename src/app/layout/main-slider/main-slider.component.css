@@ -1,0 +1,49 @@
+#main-slider {
+  
+  border: solid 1px #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.box.slideshow ul li div,
+#main-slider ul li div {
+  width: 100%;
+}
+.box.slideshow .owl-controls,
+#main-slider .owl-controls {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.box.slideshow .owl-controls .owl-buttons,
+#main-slider .owl-controls .owl-buttons {
+  display: none;
+}
+.box.slideshow .owl-controls .owl-page.active span,
+#main-slider .owl-controls .owl-page.active span,
+.box.slideshow .owl-controls.clickable .owl-page:hover span,
+#main-slider .owl-controls.clickable .owl-page:hover span {
+  background: #4fbfa8;
+}
+
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+
+.owl-carousel .owl-item {
+    float: left;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+}

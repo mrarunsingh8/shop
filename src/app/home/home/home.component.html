@@ -9,21 +9,9 @@
 
     <div class="container">
       <div class="col-md-12">
-        <div id="main-slider">
-          <div class="item">
-            <img src="assets/img/main-slider1.jpg" alt="" class="img-responsive">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="assets/img/main-slider2.jpg" alt="">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="assets/img/main-slider3.jpg" alt="">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="assets/img/main-slider4.jpg" alt="">
-          </div>
-        </div>
-        <!-- /#main-slider -->
+        
+        <app-main-slider [imageData]="mainSliderImageimageData"></app-main-slider>
+
       </div>
     </div>
 
@@ -378,7 +366,8 @@ _________________________________________________________ -->
         <div class="box slideshow">
           <h3>Get Inspired</h3>
           <p class="lead">Get the inspiration from our world class designers</p>
-          <div id="get-inspired" class="owl-carousel owl-theme">
+          <app-main-slider [imageData]="getInspiredImageData"></app-main-slider>
+          <!-- <div id="get-inspired" class="owl-carousel owl-theme">
             <div class="item">
               <a href="#">
                 <img src="assets/img/getinspired1.jpg" alt="Get inspired" class="img-responsive">
@@ -394,7 +383,7 @@ _________________________________________________________ -->
                 <img src="assets/img/getinspired3.jpg" alt="Get inspired" class="img-responsive">
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

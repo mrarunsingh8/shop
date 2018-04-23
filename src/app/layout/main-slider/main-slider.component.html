@@ -1,0 +1,22 @@
+<div id="main-slider" class="owl-carousel owl-theme" style="display: block;opacity: 1;">
+    <div class="owl-wrapper-outer">
+        <div class="owl-wrapper" #owlWrapper style="display: block; width: 3288px; left: 0px; transition: all 400ms ease; transform: translate3d(0px, 0px, 0px);">
+
+            <div *ngFor="let imageItem of imageArr; let i= index;" [ngClass]="{'owl-item':true, hidden:(!imageItem.isActive) }">
+                <div class="item" >
+                    <img class="img-responsive" src="{{imageItem.image}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="owl-controls clickable">
+        <div class="owl-pagination">
+            <div *ngFor="let imageItem of imageArr; let i=index;" [ngClass]="{'owl-page':true, active: (imageItem.isActive)}" (click)="changeSlide(i)"><span class=""></span></div>
+        </div>
+        <div class="owl-buttons">
+            <div class="owl-prev" (click)="changeSlide(activatedIndex -1)">prev</div>
+            <div class="owl-next" (click)="changeSlide(activatedIndex + 1)">next</div>
+        </div>
+    </div>
+</div>

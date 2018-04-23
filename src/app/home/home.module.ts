@@ -6,11 +6,14 @@ import { HomeComponent } from './home/home.component';
 import {LayoutModule} from '../layout/layout.module';
 import { FaqComponent } from './faq/faq.component';
 
+import { MainSliderModule } from './../layout/main-slider/main-slider.module';
+
 @NgModule({
   imports: [
     CommonModule,
     HomeRoutingModule,
-    LayoutModule
+    LayoutModule,
+    MainSliderModule
   ],
   declarations: [HomeComponent, FaqComponent]
 })
