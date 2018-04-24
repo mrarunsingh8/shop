@@ -1,3 +1,6 @@
+:host-context(.inspireImage) #main-slider{
+  margin-bottom: 0px;
+}
 #main-slider {
   margin-bottom: 30px;
   border: solid 1px #fff;
