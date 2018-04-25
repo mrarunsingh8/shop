@@ -8,6 +8,8 @@ import {RouterModule} from '@angular/router';
 import {routes} from './app.routes';
 import {HomeModule} from './home/home.module';
 import { BlogModule } from './blog/blog.module';
+import { CartModule } from './cart/cart.module';
+import { MyAccountModule } from './my-account/my-account.module';
 
 import {LayoutModule} from './layout/layout.module';
 
@@ -22,7 +24,9 @@ import {LayoutModule} from './layout/layout.module';
     RouterModule.forRoot(routes),
     LayoutModule,
     HomeModule,
-    BlogModule
+    BlogModule,
+    CartModule,
+    MyAccountModule
   ],
   providers: [],
   bootstrap: [AppComponent]

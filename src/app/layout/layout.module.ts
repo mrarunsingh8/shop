@@ -6,6 +6,7 @@ import {NavHeaderComponent} from './nav-header/nav-header.component';
 import {MainFooterComponent} from './main-footer/main-footer.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MegaMenuHeaderDirective } from './nav-header/mega-menu-header.directive';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavHeaderComponent,
     MainFooterComponent,
     MainLayoutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    MegaMenuHeaderDirective
   ],
   exports: [
     TopHeaderComponent,
