@@ -10,7 +10,7 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forRoot(blogRoutes),
+    RouterModule.forChild(blogRoutes),
   ],
   declarations: [PostComponent, PostDetailComponent]
 })

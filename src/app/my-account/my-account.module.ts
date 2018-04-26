@@ -26,7 +26,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forChild(routes),
   ],
   declarations: [OrdersComponent, WishListComponent, DashboardComponent, ChangePasswordComponent, UpdateProfileComponent, SideMenuComponent]
 })

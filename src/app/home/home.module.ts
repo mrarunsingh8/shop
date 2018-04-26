@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { homeRoutes } from './home-routing';
 import { HomeComponent } from './home/home.component';
-import {LayoutModule} from '../layout/layout.module';
+import {LayoutModule} from './../layout/layout.module';
 import { FaqComponent } from './faq/faq.component';
 
 import { MainSliderModule } from './../app-directive/main-slider/main-slider.module';
@@ -13,6 +13,7 @@ import { ProductSliderModule } from './../app-directive/product-slider/product-s
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
+import { ProductModule } from './../home/product/product.module';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     RouterModule.forChild(homeRoutes),
     LayoutModule,
     MainSliderModule,
-    ProductSliderModule
+    ProductSliderModule,
+    ProductModule
   ],
   declarations: [HomeComponent, FaqComponent, AboutUsComponent, ContactUsComponent]
 })

@@ -8,6 +8,6 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
 export const blogRoutes: Routes = [
 	{path: 'blog', component: MainLayoutComponent, children: [
 		{path: '', component: PostComponent},
-		{path: 'blog-detail', component: PostDetailComponent},
+		{path: ':blogTitle', component: PostDetailComponent},
 	]}
 ];

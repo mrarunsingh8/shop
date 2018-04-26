@@ -13,7 +13,6 @@ import { MyAccountModule } from './my-account/my-account.module';
 
 import {LayoutModule} from './layout/layout.module';
 
-
 @NgModule({
   declarations: [
     AppComponent,
