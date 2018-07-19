@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from "@angular/common/http";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
@@ -12,6 +13,7 @@ import { CartModule } from './cart/cart.module';
 import { MyAccountModule } from './my-account/my-account.module';
 
 import {LayoutModule} from './layout/layout.module';
+import {ProductModule} from "./home/product/product.module";
 
 @NgModule({
   declarations: [
@@ -19,13 +21,15 @@ import {LayoutModule} from './layout/layout.module';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(routes),
     LayoutModule,
     HomeModule,
     BlogModule,
     CartModule,
-    MyAccountModule
+    MyAccountModule,
+    ProductModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,181 @@
+[
+  {
+    "name": "White Blouse Armani",
+    "smallDetail": "Scroll to product details, material & care and sizing",
+    "amount": "320",
+    "isSale": true,
+    "isNew": false,
+    "listImage": {
+      "front": "product1.jpg",
+      "rear": "product1_2.jpg"
+    },
+    "images": [
+      {
+        "main": "detailbig1.jpg",
+        "thumb": "detailsquare.jpg"
+      },
+      {
+        "main": "detailbig2.jpg",
+        "thumb": "detailsquare2.jpg"
+      },
+      {
+        "main": "detailbig3.jpg",
+        "thumb": "detailsquare3.jpg"
+      }
+    ],
+    "detail": "White lace top, woven, has a round neck, short sleeves, has knitted lining attached",
+    "Material & care": ["Polyester", "Machine wash"],
+    "sizeFit": ["Regular fit", "The model (height 5&#34;8&#39; and chest 33&#39;) is wearing a size S"],
+    "note": "Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps"
+  },
+
+  {
+    "name": "Black Blouse Versace",
+    "smallDetail": "Scroll to product details, material & care and sizing",
+    "amount": "140",
+    "isSale": true,
+    "isNew": false,
+    "listImage": {
+      "front": "product2.jpg",
+      "rear": "product2_2.jpg"
+    },
+    "images": [
+      {
+        "main": "detailbig1.jpg",
+        "thumb": "detailsquare.jpg"
+      },
+      {
+        "main": "detailbig2.jpg",
+        "thumb": "detailsquare2.jpg"
+      },
+      {
+        "main": "detailbig3.jpg",
+        "thumb": "detailsquare3.jpg"
+      }
+    ],
+    "detail": "White lace top, woven, has a round neck, short sleeves, has knitted lining attached",
+    "Material & care": ["Polyester", "Machine wash"],
+    "sizeFit": ["Regular fit", "The model (height 5&#34;8&#39; and chest 33&#39;) is wearing a size S"],
+    "note": "Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps"
+  },
+
+  {
+    "name": "Fur Coat",
+    "smallDetail": "Scroll to product details, material & care and sizing",
+    "amount": "620",
+    "isSale": true,
+    "isNew": false,
+    "listImage": {
+      "front": "product3.jpg",
+      "rear": "product3_2.jpg"
+    },
+    "images": [
+      {
+        "main": "detailbig1.jpg",
+        "thumb": "detailsquare.jpg"
+      },
+      {
+        "main": "detailbig2.jpg",
+        "thumb": "detailsquare2.jpg"
+      },
+      {
+        "main": "detailbig3.jpg",
+        "thumb": "detailsquare3.jpg"
+      }
+    ],
+    "detail": "White lace top, woven, has a round neck, short sleeves, has knitted lining attached",
+    "Material & care": ["Polyester", "Machine wash"],
+    "sizeFit": ["Regular fit", "The model (height 5&#34;8&#39; and chest 33&#39;) is wearing a size S"],
+    "note": "Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps"
+  },
+
+  {
+    "name": "Black Blouse Armani",
+    "smallDetail": "Scroll to product details, material & care and sizing",
+    "amount": "100",
+    "isSale": true,
+    "isNew": false,
+    "listImage": {
+      "front": "product2.jpg",
+      "rear": "product2_2.jpg"
+    },
+    "images": [
+      {
+        "main": "detailbig1.jpg",
+        "thumb": "detailsquare.jpg"
+      },
+      {
+        "main": "detailbig2.jpg",
+        "thumb": "detailsquare2.jpg"
+      },
+      {
+        "main": "detailbig3.jpg",
+        "thumb": "detailsquare3.jpg"
+      }
+    ],
+    "detail": "White lace top, woven, has a round neck, short sleeves, has knitted lining attached",
+    "Material & care": ["Polyester", "Machine wash"],
+    "sizeFit": ["Regular fit", "The model (height 5&#34;8&#39; and chest 33&#39;) is wearing a size S"],
+    "note": "Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps"
+  },
+
+  {
+    "name": "Red Blouse vercay",
+    "smallDetail": "Scroll to product details, material & care and sizing",
+    "amount": "123",
+    "isSale": true,
+    "isNew": false,
+    "listImage": {
+      "front": "product3.jpg",
+      "rear": "product3_2.jpg"
+    },
+    "images": [
+      {
+        "main": "detailbig1.jpg",
+        "thumb": "detailsquare.jpg"
+      },
+      {
+        "main": "detailbig2.jpg",
+        "thumb": "detailsquare2.jpg"
+      },
+      {
+        "main": "detailbig3.jpg",
+        "thumb": "detailsquare3.jpg"
+      }
+    ],
+    "detail": "White lace top, woven, has a round neck, short sleeves, has knitted lining attached",
+    "Material & care": ["Polyester", "Machine wash"],
+    "sizeFit": ["Regular fit", "The model (height 5&#34;8&#39; and chest 33&#39;) is wearing a size S"],
+    "note": "Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps"
+  },
+
+  {
+    "name": "Brown fur Coat",
+    "smallDetail": "Scroll to product details, material & care and sizing",
+    "amount": "149",
+    "isSale": true,
+    "isNew": false,
+    "listImage": {
+      "front": "product1.jpg",
+      "rear": "product1_2.jpg"
+    },
+    "images": [
+      {
+        "main": "detailbig1.jpg",
+        "thumb": "detailsquare.jpg"
+      },
+      {
+        "main": "detailbig2.jpg",
+        "thumb": "detailsquare2.jpg"
+      },
+      {
+        "main": "detailbig3.jpg",
+        "thumb": "detailsquare3.jpg"
+      }
+    ],
+    "detail": "White lace top, woven, has a round neck, short sleeves, has knitted lining attached",
+    "Material & care": ["Polyester", "Machine wash"],
+    "sizeFit": ["Regular fit", "The model (height 5&#34;8&#39; and chest 33&#39;) is wearing a size S"],
+    "note": "Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps"
+  }
+]
